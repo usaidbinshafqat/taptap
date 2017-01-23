@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/blackback"
+    tools:context="com.usaid.alpha.tap.MainActivity">
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/shareButton"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/redbutton"
+        android:layout_marginBottom="27dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/share"
+        android:onClick="shareTapTap"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/threePlayer"
+        android:layout_above="@+id/shareButton"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/bluebutton"
+        android:text="@string/level_hard"
+        android:onClick="goToHard"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestHundered"
+        android:layout_above="@+id/threePlayer"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/redbutton"
+        android:textColor="#FFFFFF"
+        android:text="@string/best_of_100"
+        android:onClick="goToHundred"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestSixty"
+        android:layout_above="@+id/bestHundered"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bluebutton"
+        android:textColor="#FFFFFF"
+        android:text="@string/best_of_60"
+        android:onClick="goToSixty"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestForty"
+        android:layout_above="@+id/bestSixty"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/redbutton"
+        android:textColor="#FFFFFF"
+        android:text="@string/best_of_40"
+        android:onClick="goToForty"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bestTwenty"
+        android:layout_above="@+id/bestForty"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/bluebutton"
+        android:textColor="#FFFFFF"
+        android:text="@string/best_of_20"
+        android:onClick="goToTwenty"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/secretMode"
+        android:textColor="#FFFFFF"
+        android:text="@string/please_do_not_break_your_phone"
+        android:onClick="goToSecret"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textAllCaps="false"
+        android:background="@null"
+        android:layout_marginTop="-15dp"
+        android:layout_marginBottom="-15dp"/>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/lol"
+        android:layout_above="@+id/bestTwenty"
+        android:layout_marginBottom="15dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tap</string>
+    <string name="player_one">Tap</string>
+    <string name="share">Share</string>
+    <string name="level_hard">Level Hard</string>
+    <string name="best_of_100">Best Of 100</string>
+    <string name="best_of_60">Best Of 60</string>
+    <string name="best_of_40">Best Of 40</string>
+    <string name="best_of_20">Best Of 20</string>
+    <string name="please_do_not_break_your_phone">Please Do Not Break Your Phone</string>
+</resources>
